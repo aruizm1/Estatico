@@ -1,0 +1,8 @@
+pool:
+  vmImage:'Ubuntu 16.04'
+
+steps:
+  - task: NodeTool@0
+    imputs:
+      versionSpec: '8.x'
+     displayName: 'Install-Node.js'
